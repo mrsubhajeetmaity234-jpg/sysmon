@@ -1,0 +1,31 @@
+Linux System Resource Monitor   2026-10-03 09:26:10   (Ctrl+C to quit)
+
+== System / Architecture ==
+Host    : vm  (Linux 6.18.44-fc-v64)
+CPU     : Intel(R) Xeon(R) Processor @ 2.10GHz
+Arch    : x86_64, 1 logical cores, little-endian
+RAM     : 3.9 GB, page size 4096 B
+Caches  : L1 Data 48K | L1 Instruction 32K | L2 Unified 2048K | L3 Unified 266240K
+
+== CPU ==
+Total   [#...................]   3.2%
+Core 0  [#...................]   3.2%
+Load avg: 0.07 0.02 0.00   Context switches: 149/s
+
+== Memory ==
+RAM     [#...................]   6.2%  249.3 MB / 3.9 GB
+
+== Disk & Network ==
+Disk /  [#########...........]  46.1%  8.5 GB / 252.0 GB
+Disk IO : read 503.9 KB/s, write 0.0 B/s
+Network : down 0.0 B/s, up 0.0 B/s
+
+== Top Processes (50 total) ==
+PID      NAME                 STATE    CPU%       MEMORY
+4        kworker/R-rcu_gp     I         0.0        0.0 B
+5        kworker/R-sync_wq    I         0.0        0.0 B
+2        kthreadd             S         0.0        0.0 B
+1        process_api          S         0.0       5.1 MB
+3        pool_workqueue_relea S         0.0        0.0 B
+
+Monitor stopped.
